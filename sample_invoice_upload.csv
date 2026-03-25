@@ -1,0 +1,4 @@
+uid,po,sku,quantity,karat,color,gold_weight,gold_price,stone_breakdown,stone_prices,labour_cost,final_cost
+RG-10001-A,PO-47812,RNG-14K-WH-001,10,14K,White Gold,2.85,64.2,"Center: 1 x 0.50ct VS1; Side: 20 x 0.01ct SI1",420,115,717.97
+RG-10002-B,PO-47813,RNG-18K-YL-014,5,18K,Yellow Gold,3.10,82.75,"Center: 1 x 0.70ct VVS2; Halo: 16 x 0.015ct VS2",700,136,1092.53
+RG-10006-Z,PO-99999,RNG-14K-XX-999,2,14K,White Gold,2.00,61.50,"Center: 1 x 0.20ct SI",90,70,283.00
