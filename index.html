@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Intake & Validation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero glass">
+        <p class="eyebrow">Factory Invoice Intake</p>
+        <h1>Ring Invoice Validation Dashboard</h1>
+        <p class="subtitle">
+          Upload an invoice export and compare each line to the reference values in our
+          database by barcode/UID.
+        </p>
+      </section>
+
+      <section class="controls glass">
+        <div>
+          <h2>1) Upload invoice file</h2>
+          <p>
+            Upload a <strong>CSV file</strong> with these headers:
+            uid, po, sku, quantity, karat, color, gold_weight, gold_price,
+            stone_breakdown, stone_prices, labour_cost, final_cost
+          </p>
+          <input id="invoiceFile" type="file" accept=".csv" />
+        </div>
+        <div>
+          <h2>2) Comparison summary</h2>
+          <ul id="summary" class="summary-list">
+            <li>Total lines: <span id="totalLines">0</span></li>
+            <li>Perfect matches: <span id="matchLines">0</span></li>
+            <li>Flagged lines: <span id="flaggedLines">0</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="results glass">
+        <h2>3) Invoice line review</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>UID</th>
+                <th>PO#</th>
+                <th>SKU</th>
+                <th>Quantity</th>
+                <th>Karat</th>
+                <th>Color</th>
+                <th>Gold Weight</th>
+                <th>Gold Price</th>
+                <th>Stone Breakdown</th>
+                <th>Stone Prices</th>
+                <th>Labour Cost</th>
+                <th>Final Cost</th>
+                <th>Status</th>
+                <th>Flag Notes</th>
+              </tr>
+            </thead>
+            <tbody id="resultsBody">
+              <tr>
+                <td colspan="14" class="placeholder">Upload a CSV to start validation.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
