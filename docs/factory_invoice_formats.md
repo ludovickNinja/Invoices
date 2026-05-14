@@ -6,8 +6,9 @@ or PO numbers are checked into the repo; every example below is **synthetic /
 fabricated** for illustration. The synthetic example files live in
 `docs/factory_invoice_examples/`.
 
-Use this document as the source-of-truth when wiring up the n8n extraction
-workflow or adding a new factory mapping.
+Use this document as the source-of-truth when wiring up any extraction
+workflow that converts a factory Excel into the dashboard upload JSON
+(see `docs/invoice_upload_json_spec.md`).
 
 ---
 
@@ -172,22 +173,10 @@ See `docs/factory_invoice_examples/factory_C_ring_summary.csv` and
 
 ---
 
-## Validation rules the dashboard enforces
+## Output contract
 
-After extraction, every line must satisfy:
-
-1. `uid` exists in the Azure reference DB.
-2. Scalar fields match within tolerance:
-   - `gold_weight_g`: ±0.01 g
-   - `gold_price_usd_per_oz`: ±0.50 USD (allows for intraday fix vs market open)
-   - `labour_cost_usd`: ±0.50 USD
-   - `final_cost_usd`: ±1.00 USD
-3. `diamonds[]` matches the DB array as a set keyed on `shape + quality`,
-   with per-entry tolerances:
-   - `carats`: ±0.001 ct
-   - `count`: exact
-   - `price_per_carat_usd`: ±1.00 USD
-4. `po_sent_date` is an ISO date and equals the DB record exactly.
-
-Anything else → red flag with the per-field delta surfaced in the
-**Flag Notes** column.
+Whatever pipeline you build for extraction, the only thing the dashboard
+cares about is the upload JSON. The full schema, required fields and
+tolerances live in **`docs/invoice_upload_json_spec.md`** — treat that as
+the authoritative target. The three factory layouts above describe the
+input side; the spec describes the output side.
