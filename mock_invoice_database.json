@@ -3,72 +3,133 @@
     {
       "uid": "RG-10001-A",
       "po": "PO-47812",
+      "po_sent_date": "2026-02-12",
       "sku": "RNG-14K-WH-001",
       "quantity": 10,
       "karat": "14K",
       "color": "White Gold",
-      "gold_weight": 2.85,
-      "gold_price": 64.2,
-      "stone_breakdown": "Center: 1 x 0.50ct VS1; Side: 20 x 0.01ct SI1",
-      "stone_prices": 420,
-      "labour_cost": 115,
-      "final_cost": 717.97
+      "gold_weight_g": 2.85,
+      "gold_price_usd_per_oz": 2018.40,
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "VS1 F",
+          "carats": 0.50,
+          "count": 1,
+          "price_per_carat_usd": 720.00
+        },
+        {
+          "shape": "Round",
+          "quality": "SI1 G",
+          "carats": 0.01,
+          "count": 20,
+          "price_per_carat_usd": 300.00
+        }
+      ],
+      "labour_cost_usd": 115.00,
+      "final_cost_usd": 719.95
     },
     {
       "uid": "RG-10002-B",
       "po": "PO-47813",
+      "po_sent_date": "2026-02-18",
       "sku": "RNG-18K-YL-014",
       "quantity": 5,
       "karat": "18K",
       "color": "Yellow Gold",
-      "gold_weight": 3.1,
-      "gold_price": 82.75,
-      "stone_breakdown": "Center: 1 x 0.70ct VVS2; Halo: 16 x 0.015ct VS2",
-      "stone_prices": 685,
-      "labour_cost": 136,
-      "final_cost": 1077.53
+      "gold_weight_g": 3.10,
+      "gold_price_usd_per_oz": 2042.10,
+      "diamonds": [
+        {
+          "shape": "Oval",
+          "quality": "VVS2 E",
+          "carats": 0.70,
+          "count": 1,
+          "price_per_carat_usd": 950.00
+        },
+        {
+          "shape": "Round",
+          "quality": "VS2 F",
+          "carats": 0.015,
+          "count": 16,
+          "price_per_carat_usd": 800.00
+        }
+      ],
+      "labour_cost_usd": 136.00,
+      "final_cost_usd": 1196.53
     },
     {
       "uid": "RG-10003-C",
       "po": "PO-47814",
+      "po_sent_date": "2026-02-20",
       "sku": "RNG-14K-RG-023",
       "quantity": 12,
       "karat": "14K",
       "color": "Rose Gold",
-      "gold_weight": 2.45,
-      "gold_price": 63.8,
-      "stone_breakdown": "Band: 30 x 0.008ct SI1",
-      "stone_prices": 168,
-      "labour_cost": 92,
-      "final_cost": 416.31
+      "gold_weight_g": 2.45,
+      "gold_price_usd_per_oz": 2055.75,
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "SI1 H",
+          "carats": 0.008,
+          "count": 30,
+          "price_per_carat_usd": 700.00
+        }
+      ],
+      "labour_cost_usd": 92.00,
+      "final_cost_usd": 421.93
     },
     {
       "uid": "RG-10004-D",
       "po": "PO-47820",
+      "po_sent_date": "2026-03-02",
       "sku": "RNG-22K-YL-002",
       "quantity": 8,
       "karat": "22K",
       "color": "Yellow Gold",
-      "gold_weight": 4.2,
-      "gold_price": 98.15,
-      "stone_breakdown": "Center: 1 x 0.35ct IF",
-      "stone_prices": 302,
-      "labour_cost": 140,
-      "final_cost": 854.23
+      "gold_weight_g": 4.20,
+      "gold_price_usd_per_oz": 2110.50,
+      "diamonds": [
+        {
+          "shape": "Princess",
+          "quality": "IF D",
+          "carats": 0.35,
+          "count": 1,
+          "price_per_carat_usd": 862.86
+        }
+      ],
+      "labour_cost_usd": 140.00,
+      "final_cost_usd": 727.99
     },
     {
       "uid": "RG-10005-E",
       "po": "PO-47821",
+      "po_sent_date": "2026-03-05",
       "sku": "RNG-18K-WH-041",
       "quantity": 6,
       "karat": "18K",
       "color": "White Gold",
-      "gold_weight": 3.55,
-      "gold_price": 83.1,
-      "stone_breakdown": "Center: 1 x 1.00ct VS2; Pave: 24 x 0.006ct VS",
-      "stone_prices": 920,
-      "labour_cost": 168,
-      "final_cost": 1382.01
+      "gold_weight_g": 3.55,
+      "gold_price_usd_per_oz": 2098.25,
+      "diamonds": [
+        {
+          "shape": "Cushion",
+          "quality": "VS2 F",
+          "carats": 1.00,
+          "count": 1,
+          "price_per_carat_usd": 820.00
+        },
+        {
+          "shape": "Round",
+          "quality": "VS G",
+          "carats": 0.006,
+          "count": 24,
+          "price_per_carat_usd": 690.00
+        }
+      ],
+      "labour_cost_usd": 168.00,
+      "final_cost_usd": 1326.84
     }
   ]
 }
