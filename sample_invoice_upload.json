@@ -1,0 +1,120 @@
+{
+  "lines": [
+    {
+      "uid": "RG-10001-A",
+      "po": "PO-47812",
+      "po_sent_date": "2026-02-12",
+      "sku": "RNG-14K-WH-001",
+      "quantity": 10,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.85,
+      "gold_price_usd_per_oz": 2018.40,
+      "diamonds": [
+        { "shape": "Round",  "quality": "VS1 F", "carats": 0.50,  "count": 1,  "price_per_carat_usd": 720.00 },
+        { "shape": "Round",  "quality": "SI1 G", "carats": 0.01,  "count": 20, "price_per_carat_usd": 300.00 }
+      ],
+      "labour_cost_usd": 115.00,
+      "final_cost_usd": 719.95
+    },
+    {
+      "uid": "RG-10002-B",
+      "po": "PO-47813",
+      "po_sent_date": "2026-02-18",
+      "sku": "RNG-18K-YL-014",
+      "quantity": 5,
+      "karat": "18K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.10,
+      "gold_price_usd_per_oz": 2042.10,
+      "diamonds": [
+        { "shape": "Oval",  "quality": "VVS2 E", "carats": 0.70,  "count": 1,  "price_per_carat_usd": 950.00 },
+        { "shape": "Round", "quality": "VS2 F",  "carats": 0.015, "count": 16, "price_per_carat_usd": 850.00 }
+      ],
+      "labour_cost_usd": 136.00,
+      "final_cost_usd": 1208.50
+    },
+    {
+      "uid": "RG-10003-C",
+      "po": "PO-47814",
+      "po_sent_date": "2026-02-20",
+      "sku": "RNG-14K-RG-023",
+      "quantity": 12,
+      "karat": "White Gold",
+      "color": "White Gold",
+      "gold_weight_g": 2.45,
+      "gold_price_usd_per_oz": 2055.75,
+      "diamonds": [
+        { "shape": "Round", "quality": "SI1 H", "carats": 0.008, "count": 30, "price_per_carat_usd": 700.00 }
+      ],
+      "labour_cost_usd": 92.00,
+      "final_cost_usd": 421.93
+    },
+    {
+      "uid": "RG-10004-D",
+      "po": "PO-47820",
+      "po_sent_date": "2026-03-02",
+      "sku": "RNG-22K-YL-002",
+      "quantity": 8,
+      "karat": "22K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 4.20,
+      "gold_price_usd_per_oz": 1980.00,
+      "diamonds": [
+        { "shape": "Princess", "quality": "IF D", "carats": 0.35, "count": 1, "price_per_carat_usd": 862.86 }
+      ],
+      "labour_cost_usd": 150.00,
+      "final_cost_usd": 712.00
+    },
+    {
+      "uid": "RG-10005-E",
+      "po": "PO-47821",
+      "po_sent_date": "2026-03-05",
+      "sku": "RNG-18K-WH-041",
+      "quantity": 4,
+      "karat": "18K",
+      "color": "White Gold",
+      "gold_weight_g": 3.55,
+      "gold_price_usd_per_oz": 2098.25,
+      "diamonds": [
+        { "shape": "Cushion", "quality": "VS2 F", "carats": 1.00,  "count": 1,  "price_per_carat_usd": 820.00 },
+        { "shape": "Round",   "quality": "VS G",  "carats": 0.006, "count": 24, "price_per_carat_usd": 690.00 }
+      ],
+      "labour_cost_usd": 168.00,
+      "final_cost_usd": 1326.84
+    },
+    {
+      "uid": "RG-10006-Z",
+      "po": "PO-99999",
+      "po_sent_date": "2026-03-08",
+      "sku": "RNG-14K-XX-999",
+      "quantity": 2,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.00,
+      "gold_price_usd_per_oz": 2100.00,
+      "diamonds": [
+        { "shape": "Round", "quality": "SI G", "carats": 0.20, "count": 1, "price_per_carat_usd": 400.00 }
+      ],
+      "labour_cost_usd": 70.00,
+      "final_cost_usd": 283.00
+    },
+    {
+      "uid": "RG-10001-A",
+      "po": "PO-47812",
+      "po_sent_date": "2026-02-12",
+      "sku": "RNG-14K-WH-001",
+      "quantity": 10,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.85,
+      "gold_price_usd_per_oz": 2018.40,
+      "diamonds": [
+        { "shape": "Round", "quality": "VS1 F", "carats": 0.50, "count": 1,  "price_per_carat_usd": 720.00 },
+        { "shape": "Round", "quality": "SI2 H", "carats": 0.01, "count": 20, "price_per_carat_usd": 250.00 }
+      ],
+      "labour_cost_usd": 115.00,
+      "final_cost_usd": 719.95
+    }
+  ]
+}
