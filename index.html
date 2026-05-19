@@ -3,75 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Invoice Validation Dashboard</title>
+    <title>Invoice Validation</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero glass">
-        <p class="eyebrow">Factory Invoice Intake</p>
-        <h1>Invoice Validation Dashboard</h1>
-        <p class="subtitle">
-          Upload a factory invoice export and compare each line to the reference
-          values pulled from Azure by barcode / UID.
-        </p>
+    <main class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div>
+            <p class="eyebrow">CrownRing</p>
+            <h1>Invoice Validation</h1>
+          </div>
+        </div>
+
+        <div class="upload-group">
+          <input id="invoiceFile" class="file-input" type="file" accept=".csv,text/csv" multiple />
+          <label class="file-button" for="invoiceFile">Upload CSV</label>
+          <span id="fileStatus" class="file-status">No file selected</span>
+        </div>
+      </header>
+
+      <section class="metrics" aria-label="Comparison summary">
+        <article class="metric-card">
+          <span>Total Lines</span>
+          <strong id="totalLines">0</strong>
+        </article>
+        <article class="metric-card">
+          <span>Matched</span>
+          <strong id="matchLines">0</strong>
+        </article>
+        <article class="metric-card metric-card-alert">
+          <span>Flagged</span>
+          <strong id="flaggedLines">0</strong>
+        </article>
       </section>
 
-      <section class="controls glass">
-        <div>
-          <h2>1) Upload invoice file</h2>
-          <p>
-            Upload a <strong>JSON file</strong> with this shape:
-          </p>
-          <pre class="schema">{
-  "lines": [
-    {
-      "uid": "RG-10001-A",
-      "po": "PO-47812",
-      "po_sent_date": "2026-02-12",
-      "sku": "RNG-14K-WH-001",
-      "quantity": 10,
-      "karat": "14K",
-      "color": "White Gold",
-      "gold_weight_g": 2.85,
-      "gold_price_usd_per_oz": 2018.40,
-      "diamonds": [
-        { "shape": "Round", "quality": "VS1 F",
-          "carats": 0.50, "count": 1,
-          "price_per_carat_usd": 720.00 }
-      ],
-      "labour_cost_usd": 115.00,
-      "final_cost_usd": 719.95
-    }
-  ]
-}</pre>
-          <p class="hint">
-            <code>gold_price_usd_per_oz</code> is the spot market gold price
-            per troy ounce in USD on the day the PO was sent. See
-            <a href="docs/invoice_upload_json_spec.md">docs/invoice_upload_json_spec.md</a>
-            for the full field-by-field contract and tolerances.
-          </p>
-          <input id="invoiceFile" type="file" accept=".json" />
+      <section class="review-panel">
+        <div class="panel-header">
+          <h2>Line Review</h2>
+          <div class="status-legend" aria-label="Status legend">
+            <span><i class="legend-dot legend-ok"></i>Matched</span>
+            <span><i class="legend-dot legend-bad"></i>Red Flag</span>
+          </div>
         </div>
-        <div>
-          <h2>2) Comparison summary</h2>
-          <ul id="summary" class="summary-list">
-            <li>Total lines: <span id="totalLines">0</span></li>
-            <li>Perfect matches: <span id="matchLines">0</span></li>
-            <li>Flagged lines: <span id="flaggedLines">0</span></li>
-          </ul>
-        </div>
-      </section>
 
-      <section class="results glass">
-        <h2>3) Invoice line review</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
                 <th>UID</th>
                 <th>PO#</th>
-                <th>PO Sent</th>
+                <th>Date</th>
                 <th>SKU</th>
                 <th>Qty</th>
                 <th>Karat</th>
@@ -82,12 +64,11 @@
                 <th>Labour ($)</th>
                 <th>Final ($)</th>
                 <th>Status</th>
-                <th>Flag Notes</th>
               </tr>
             </thead>
             <tbody id="resultsBody">
               <tr>
-                <td colspan="14" class="placeholder">Upload a JSON invoice export to start validation.</td>
+                <td colspan="13" class="placeholder">No invoice uploaded</td>
               </tr>
             </tbody>
           </table>

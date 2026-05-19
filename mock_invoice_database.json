@@ -9,24 +9,24 @@
       "karat": "14K",
       "color": "White Gold",
       "gold_weight_g": 2.85,
-      "gold_price_usd_per_oz": 2018.40,
+      "gold_price_usd_per_oz": 2018.4,
       "diamonds": [
         {
           "shape": "Round",
           "quality": "VS1 F",
-          "carats": 0.50,
+          "carats": 0.5,
           "count": 1,
-          "price_per_carat_usd": 720.00
+          "price_per_carat_usd": 720
         },
         {
           "shape": "Round",
           "quality": "SI1 G",
           "carats": 0.01,
           "count": 20,
-          "price_per_carat_usd": 300.00
+          "price_per_carat_usd": 300
         }
       ],
-      "labour_cost_usd": 115.00,
+      "labour_cost_usd": 115,
       "final_cost_usd": 719.95
     },
     {
@@ -37,25 +37,25 @@
       "quantity": 5,
       "karat": "18K",
       "color": "Yellow Gold",
-      "gold_weight_g": 3.10,
-      "gold_price_usd_per_oz": 2042.10,
+      "gold_weight_g": 3.1,
+      "gold_price_usd_per_oz": 2042.1,
       "diamonds": [
         {
           "shape": "Oval",
           "quality": "VVS2 E",
-          "carats": 0.70,
+          "carats": 0.7,
           "count": 1,
-          "price_per_carat_usd": 950.00
+          "price_per_carat_usd": 950
         },
         {
           "shape": "Round",
           "quality": "VS2 F",
           "carats": 0.015,
           "count": 16,
-          "price_per_carat_usd": 800.00
+          "price_per_carat_usd": 800
         }
       ],
-      "labour_cost_usd": 136.00,
+      "labour_cost_usd": 136,
       "final_cost_usd": 1196.53
     },
     {
@@ -74,10 +74,10 @@
           "quality": "SI1 H",
           "carats": 0.008,
           "count": 30,
-          "price_per_carat_usd": 700.00
+          "price_per_carat_usd": 700
         }
       ],
-      "labour_cost_usd": 92.00,
+      "labour_cost_usd": 92,
       "final_cost_usd": 421.93
     },
     {
@@ -88,8 +88,8 @@
       "quantity": 8,
       "karat": "22K",
       "color": "Yellow Gold",
-      "gold_weight_g": 4.20,
-      "gold_price_usd_per_oz": 2110.50,
+      "gold_weight_g": 4.2,
+      "gold_price_usd_per_oz": 2110.5,
       "diamonds": [
         {
           "shape": "Princess",
@@ -99,7 +99,7 @@
           "price_per_carat_usd": 862.86
         }
       ],
-      "labour_cost_usd": 140.00,
+      "labour_cost_usd": 140,
       "final_cost_usd": 727.99
     },
     {
@@ -116,20 +116,1970 @@
         {
           "shape": "Cushion",
           "quality": "VS2 F",
-          "carats": 1.00,
+          "carats": 1,
           "count": 1,
-          "price_per_carat_usd": 820.00
+          "price_per_carat_usd": 820
         },
         {
           "shape": "Round",
           "quality": "VS G",
           "carats": 0.006,
           "count": 24,
-          "price_per_carat_usd": 690.00
+          "price_per_carat_usd": 690
         }
       ],
-      "labour_cost_usd": 168.00,
+      "labour_cost_usd": 168,
       "final_cost_usd": 1326.84
+    },
+    {
+      "uid": "WB618675",
+      "po": "WB618675",
+      "po_sent_date": "2025-10-08",
+      "sku": "STC50-1",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 1.63,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Stone",
+          "quality": "",
+          "count": 7,
+          "carats": 0.007714,
+          "total_carats": 0.054,
+          "total_cost_usd": 0
+        }
+      ],
+      "labour_cost_usd": 16.5,
+      "final_cost_usd": 156.3,
+      "source_file": "10-08 SF Shipment For CR-#30750-2(CK251009001(CR)-8件).csv"
+    },
+    {
+      "uid": "WB628076",
+      "po": "WB628076",
+      "po_sent_date": "2025-10-08",
+      "sku": "B396-01-100A",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.95,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Stone",
+          "quality": "",
+          "count": 0,
+          "carats": "",
+          "total_carats": 0,
+          "total_cost_usd": ""
+        }
+      ],
+      "labour_cost_usd": 22.15,
+      "final_cost_usd": 273.15,
+      "source_file": "10-08 SF Shipment For CR-#30750-2(CK251009001(CR)-8件).csv"
+    },
+    {
+      "uid": "WB628398",
+      "po": "WB628398",
+      "po_sent_date": "2025-10-08",
+      "sku": "B440-01-150A",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold/Yellow Gold",
+      "gold_weight_g": 2.81,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Stone",
+          "quality": "",
+          "count": 0,
+          "carats": "",
+          "total_carats": 0,
+          "total_cost_usd": ""
+        }
+      ],
+      "labour_cost_usd": 20.5,
+      "final_cost_usd": 259.59,
+      "source_file": "10-08 SF Shipment For CR-#30750-2(CK251009001(CR)-8件).csv"
+    },
+    {
+      "uid": "WB631389",
+      "po": "WB631389",
+      "po_sent_date": "2025-10-08",
+      "sku": "A115-01",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.76,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Stone",
+          "quality": "",
+          "count": 0,
+          "carats": "",
+          "total_carats": 0,
+          "total_cost_usd": ""
+        }
+      ],
+      "labour_cost_usd": 15,
+      "final_cost_usd": 334.92,
+      "source_file": "10-08 SF Shipment For CR-#30750-2(CK251009001(CR)-8件).csv"
+    },
+    {
+      "uid": "WB632241",
+      "po": "WB632241",
+      "po_sent_date": "2025-10-08",
+      "sku": "B396-01-100A",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold/Yellow Gold",
+      "gold_weight_g": 3.53,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Stone",
+          "quality": "",
+          "count": 0,
+          "carats": "",
+          "total_carats": 0,
+          "total_cost_usd": ""
+        }
+      ],
+      "labour_cost_usd": 25.15,
+      "final_cost_usd": 325.5,
+      "source_file": "10-08 SF Shipment For CR-#30750-2(CK251009001(CR)-8件).csv"
+    },
+    {
+      "uid": "WB630752",
+      "po": "WB630752",
+      "po_sent_date": "2025-10-08",
+      "sku": "D01-RD-025",
+      "quantity": 1,
+      "karat": "18K",
+      "color": "White Gold",
+      "gold_weight_g": 3.43,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Stone",
+          "quality": "",
+          "count": 0,
+          "carats": "",
+          "total_carats": 0,
+          "total_cost_usd": ""
+        }
+      ],
+      "labour_cost_usd": 18,
+      "final_cost_usd": 393.93,
+      "source_file": "10-08 SF Shipment For CR-#30750-2(CK251009001(CR)-8件).csv"
+    },
+    {
+      "uid": "WB632738",
+      "po": "WB632738",
+      "po_sent_date": "2025-10-08",
+      "sku": "D01-EM-015-T",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 4.09,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Stone",
+          "quality": "",
+          "count": 0,
+          "carats": "",
+          "total_carats": 0,
+          "total_cost_usd": ""
+        }
+      ],
+      "labour_cost_usd": 18,
+      "final_cost_usd": 271.31,
+      "source_file": "10-08 SF Shipment For CR-#30750-2(CK251009001(CR)-8件).csv"
+    },
+    {
+      "uid": "WB633603",
+      "po": "WB633603",
+      "po_sent_date": "2025-10-08",
+      "sku": "D12-RD-003-T",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 5.3,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Stone",
+          "quality": "",
+          "count": 44,
+          "carats": 0.029091,
+          "total_carats": 1.28,
+          "total_cost_usd": 134.4
+        }
+      ],
+      "labour_cost_usd": 40,
+      "final_cost_usd": 502.65,
+      "source_file": "10-08 SF Shipment For CR-#30750-2(CK251009001(CR)-8件).csv"
+    },
+    {
+      "uid": "OET5GJAG",
+      "po": "WB633962",
+      "po_sent_date": "2025-10-04",
+      "sku": "STA11-1WM",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 1.576,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 13,
+          "carats": 0.014462,
+          "total_carats": 0.188
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 245,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "N3JAA9DS",
+      "po": "WB633751",
+      "po_sent_date": "2025-10-04",
+      "sku": "STC10-1WM",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.016,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 16,
+          "carats": 0.01,
+          "total_carats": 0.16
+        },
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 4,
+          "carats": 0.03725,
+          "total_carats": 0.149
+        },
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 1,
+          "carats": 0.06,
+          "total_carats": 0.06
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 389,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "YXLPX2IC",
+      "po": "WB633962",
+      "po_sent_date": "2025-10-04",
+      "sku": "STA2-1WM-D",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.095,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 29,
+          "carats": 0.011931,
+          "total_carats": 0.346
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 367,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "DGPPN4H0",
+      "po": "WB634053",
+      "po_sent_date": "2025-10-04",
+      "sku": "STC23-1YS-D",
+      "quantity": 1,
+      "karat": "18K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.201,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 32,
+          "carats": 0.002563,
+          "total_carats": 0.082
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 314,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "UASDO2ME",
+      "po": "WB633281",
+      "po_sent_date": "2025-10-04",
+      "sku": "STE1-3WS-D",
+      "quantity": 1,
+      "karat": "18K",
+      "color": "White Gold",
+      "gold_weight_g": 1.923,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 25,
+          "carats": 0.00904,
+          "total_carats": 0.226
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 345,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "K6AM7ZLF",
+      "po": "WB633516",
+      "po_sent_date": "2025-10-04",
+      "sku": "A004-01YM-FCYA",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 5.081,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 36,
+          "carats": 0.010722,
+          "total_carats": 0.386
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 708,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "T7OCAIQL",
+      "po": "WB634380",
+      "po_sent_date": "2025-10-04",
+      "sku": "STE3-1WM",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.164,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 7,
+          "carats": 0.017143,
+          "total_carats": 0.12
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 256,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "96R76ECQ",
+      "po": "WB634013",
+      "po_sent_date": "2025-10-04",
+      "sku": "B372-03WM-FCYA",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.676,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 50,
+          "carats": 0.00588,
+          "total_carats": 0.294
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 443,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "2YCLRVBC",
+      "po": "WB633726",
+      "po_sent_date": "2025-10-04",
+      "sku": "STC24-1YM-D",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.89,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 34,
+          "carats": 0.006941,
+          "total_carats": 0.236
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 490,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "HQOLL69A",
+      "po": "WB634261",
+      "po_sent_date": "2025-10-04",
+      "sku": "B101-01WZ-200A",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 4.351,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 20,
+          "carats": 0.012,
+          "total_carats": 0.24
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 529,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "KIKFAB84",
+      "po": "WB634603",
+      "po_sent_date": "2025-10-04",
+      "sku": "B252-01WM-100A",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 3.518,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 10,
+          "carats": 0.0138,
+          "total_carats": 0.138
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 407,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "OC7CJOH9",
+      "po": "WB634665",
+      "po_sent_date": "2025-10-04",
+      "sku": "STC24-1WYM-D",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold/Yellow Gold",
+      "gold_weight_g": 3.555,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "",
+          "count": 34,
+          "carats": 0.007118,
+          "total_carats": 0.242
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": 470,
+      "source_file": "10-04 DIA Shipment NOAM CARVER PACKING LIST(INV 271-272)-04.10.csv"
+    },
+    {
+      "uid": "RG01255",
+      "po": "WB667950",
+      "po_sent_date": "2026-05-11",
+      "sku": "B477-01YM-Lab-FCYA",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.792,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Marquise",
+          "quality": "VS G",
+          "carats": 0.058,
+          "count": 4,
+          "total_carats": 0.23,
+          "price_per_carat_usd": 150
+        },
+        {
+          "shape": "Round",
+          "quality": "VS G",
+          "carats": 0.004,
+          "count": 14,
+          "total_carats": 0.05,
+          "price_per_carat_usd": 180
+        },
+        {
+          "shape": "Round",
+          "quality": "VS G",
+          "carats": 0.035,
+          "count": 6,
+          "total_carats": 0.21,
+          "price_per_carat_usd": 95
+        }
+      ],
+      "labour_cost_usd": 79,
+      "final_cost_usd": 421.92,
+      "source_file": "Indo 5-11 Shipment ISH_26-27-0014 Export DCB J(Sheet).csv"
+    },
+    {
+      "uid": "BD00228",
+      "po": "WB668971",
+      "po_sent_date": "2026-05-11",
+      "sku": "STC10-1RN-Lab",
+      "quantity": 1,
+      "karat": "10K",
+      "color": "Rose Gold",
+      "gold_weight_g": 1.704,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "VS G",
+          "carats": 0.009,
+          "count": 18,
+          "total_carats": 0.169,
+          "price_per_carat_usd": 140
+        },
+        {
+          "shape": "Round",
+          "quality": "VS G",
+          "carats": 0.03,
+          "count": 2,
+          "total_carats": 0.059,
+          "price_per_carat_usd": 95
+        },
+        {
+          "shape": "Round",
+          "quality": "VS G",
+          "carats": 0.089,
+          "count": 0,
+          "total_carats": 0.089,
+          "price_per_carat_usd": 80
+        },
+        {
+          "shape": "Round",
+          "quality": "VS G",
+          "carats": 0.063,
+          "count": 1,
+          "total_carats": 0.063,
+          "price_per_carat_usd": 70
+        }
+      ],
+      "labour_cost_usd": 29.75,
+      "final_cost_usd": 177.54,
+      "source_file": "Indo 5-11 Shipment ISH_26-27-0014 Export DCB J(Sheet).csv"
+    },
+    {
+      "uid": "BD00229",
+      "po": "WB668690",
+      "po_sent_date": "2026-05-11",
+      "sku": "STB38-1WN-D-Lab",
+      "quantity": 1,
+      "karat": "10K",
+      "color": "White Gold",
+      "gold_weight_g": 2.382,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "VS G",
+          "carats": 0.03,
+          "count": 23,
+          "total_carats": 0.69,
+          "price_per_carat_usd": 95
+        }
+      ],
+      "labour_cost_usd": 74.7,
+      "final_cost_usd": 304.71,
+      "source_file": "Indo 5-11 Shipment ISH_26-27-0014 Export DCB J(Sheet).csv"
+    },
+    {
+      "uid": "RG01258",
+      "po": "WB664668",
+      "po_sent_date": "2026-05-11",
+      "sku": "B353-02YM-FCYA",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.422,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Emerald",
+          "quality": "VS G",
+          "carats": 3.54,
+          "count": 1,
+          "total_carats": 3.54,
+          "price_per_carat_usd": 120
+        }
+      ],
+      "labour_cost_usd": 66.05,
+      "final_cost_usd": 840.83,
+      "source_file": "Indo 5-11 Shipment ISH_26-27-0014 Export DCB J(Sheet).csv"
+    },
+    {
+      "uid": "RG01257",
+      "po": "WB664668",
+      "po_sent_date": "2026-05-11",
+      "sku": "B353-02YM-FCYA",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.582,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Emerald",
+          "quality": "VS G",
+          "carats": 3.59,
+          "count": 1,
+          "total_carats": 3.59,
+          "price_per_carat_usd": 120
+        }
+      ],
+      "labour_cost_usd": 66.05,
+      "final_cost_usd": 863.17,
+      "source_file": "Indo 5-11 Shipment ISH_26-27-0014 Export DCB J(Sheet).csv"
+    },
+    {
+      "uid": "RG01259",
+      "po": "WB664668",
+      "po_sent_date": "2026-05-11",
+      "sku": "B353-02YM-FCYA",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.532,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Emerald",
+          "quality": "VS G",
+          "carats": 3.56,
+          "count": 1,
+          "total_carats": 3.56,
+          "price_per_carat_usd": 120
+        }
+      ],
+      "labour_cost_usd": 66.05,
+      "final_cost_usd": 854.45,
+      "source_file": "Indo 5-11 Shipment ISH_26-27-0014 Export DCB J(Sheet).csv"
+    },
+    {
+      "uid": "B018-01WM-125A-RRVV6HDI",
+      "po": "WB640548",
+      "po_sent_date": "2025-11-06",
+      "sku": "B018-01WM-125A-RRVV6HDI",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 3.26,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B075-01WM-100B-MK5U3S7C",
+      "po": "WB639720",
+      "po_sent_date": "2025-11-06",
+      "sku": "B075-01WM-100B-MK5U3S7C",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 3.52,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "SA",
+          "count": 6,
+          "carats": 0.006167,
+          "total_carats": 0.037,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B214-01WM-100B-0RKDYBT9",
+      "po": "WB639386",
+      "po_sent_date": "2025-11-06",
+      "sku": "B214-01WM-100B-0RKDYBT9",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.09,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 17,
+          "carats": 0.013588,
+          "total_carats": 0.231,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B167-01YM-FCYB-V7E0BM9K",
+      "po": "WB640200",
+      "po_sent_date": "2025-11-06",
+      "sku": "B167-01YM-FCYB-V7E0BM9K",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 1.27,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B167-01YM-FCYB-479J0W4P",
+      "po": "WB639142",
+      "po_sent_date": "2025-11-06",
+      "sku": "B167-01YM-FCYB-479J0W4P",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 1.36,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "NCM-003Y55-M10-7CF31BG9",
+      "po": "WB638026",
+      "po_sent_date": "2025-11-06",
+      "sku": "NCM-003Y55-M10-7CF31BG9",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 7.69,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "NCM-023Y65-M10-ONHQZA5N",
+      "po": "WB638026",
+      "po_sent_date": "2025-11-06",
+      "sku": "NCM-023Y65-M10-ONHQZA5N",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 8.07,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A057-03YM-FCYB-PS7ZX011",
+      "po": "WB640599",
+      "po_sent_date": "2025-11-06",
+      "sku": "A057-03YM-FCYB-PS7ZX011",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.07,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "NCM-039Y55-N10-8KTJXN2N",
+      "po": "WB640149",
+      "po_sent_date": "2025-11-06",
+      "sku": "NCM-039Y55-N10-8KTJXN2N",
+      "quantity": 1,
+      "karat": "10K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 7.42,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "FR-014-01-A-H7C3ASDY",
+      "po": "WB628997-5",
+      "po_sent_date": "2025-11-06",
+      "sku": "FR-014-01-A-H7C3ASDY",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.19,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Marquise",
+          "quality": "CVD",
+          "count": 1,
+          "carats": 0.075,
+          "total_carats": 0.075,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Pear",
+          "quality": "CVD",
+          "count": 1,
+          "carats": 0.04,
+          "total_carats": 0.04,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 23,
+          "carats": 0.025217,
+          "total_carats": 0.58,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B252-01WM-100B-OYCSRJQA",
+      "po": "WB639331",
+      "po_sent_date": "2025-11-06",
+      "sku": "B252-01WM-100B-OYCSRJQA",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 3.05,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 8,
+          "carats": 0.012625,
+          "total_carats": 0.101,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "STB12-2YM-XH7LAMR2",
+      "po": "WB640501",
+      "po_sent_date": "2025-11-06",
+      "sku": "STB12-2YM-XH7LAMR2",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.04,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "LUST001-01YM28-KFY4K3G3",
+      "po": "WB640867",
+      "po_sent_date": "2025-11-06",
+      "sku": "LUST001-01YM28-KFY4K3G3",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.11,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "LUST009-01YM25-0OBMGFXC",
+      "po": "WB640042",
+      "po_sent_date": "2025-11-06",
+      "sku": "LUST009-01YM25-0OBMGFXC",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.11,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "LUST009-01YM4-Y4KIY7TO",
+      "po": "WB640288",
+      "po_sent_date": "2025-11-06",
+      "sku": "LUST009-01YM4-Y4KIY7TO",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 5.28,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "LUST005-02YM2-TNJUOLBJ",
+      "po": "WB640123",
+      "po_sent_date": "2025-11-06",
+      "sku": "LUST005-02YM2-TNJUOLBJ",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.44,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "STA12-1YM-3QH15JV5",
+      "po": "WB640337",
+      "po_sent_date": "2025-11-06",
+      "sku": "STA12-1YM-3QH15JV5",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 1.25,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 7,
+          "carats": 0.022714,
+          "total_carats": 0.159,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "NCM-129Y6-M10-0UMBYIGR",
+      "po": "WB637519-3",
+      "po_sent_date": "2025-11-06",
+      "sku": "NCM-129Y6-M10-0UMBYIGR",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 7.15,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "BLU042-01WM3-B-J6JLLPB2",
+      "po": "WB640324",
+      "po_sent_date": "2025-11-06",
+      "sku": "BLU042-01WM3-B-J6JLLPB2",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.49,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "STC52-1WM-D-UOOLUST0",
+      "po": "WB638627-2-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "STC52-1WM-D-UOOLUST0",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 1.61,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Emerald",
+          "quality": "DIA",
+          "count": 1,
+          "carats": 0.138,
+          "total_carats": 0.138,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Pear",
+          "quality": "DIA",
+          "count": 1,
+          "carats": 0.18,
+          "total_carats": 0.18,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "STC52-1YM-D-UKG7HX1R",
+      "po": "WB638627-2-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "STC52-1YM-D-UKG7HX1R",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 1.51,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Emerald",
+          "quality": "DIA",
+          "count": 1,
+          "carats": 0.14,
+          "total_carats": 0.14,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Pear",
+          "quality": "DIA",
+          "count": 1,
+          "carats": 0.139,
+          "total_carats": 0.139,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B372-03YM-FCYA-WWWETELM",
+      "po": "WB639767",
+      "po_sent_date": "2025-11-06",
+      "sku": "B372-03YM-FCYA-WWWETELM",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.1,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 52,
+          "carats": 0.006038,
+          "total_carats": 0.314,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "LU024-02WM25-A-29E4VGPH",
+      "po": "WB640253",
+      "po_sent_date": "2025-11-06",
+      "sku": "LU024-02WM25-A-29E4VGPH",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 4.39,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B185-02WM-050A-TREMNQHW",
+      "po": "WB637874",
+      "po_sent_date": "2025-11-06",
+      "sku": "B185-02WM-050A-TREMNQHW",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 3.32,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 24,
+          "carats": 0.007875,
+          "total_carats": 0.189,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B367-01RM-FCYA-AFEWFVEI",
+      "po": "WB638607-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B367-01RM-FCYA-AFEWFVEI",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Rose Gold",
+      "gold_weight_g": 2.85,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 16,
+          "carats": 0.020375,
+          "total_carats": 0.326,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "NCM-134Y5-N10-2HM9QOBX",
+      "po": "WB638859-2",
+      "po_sent_date": "2025-11-06",
+      "sku": "NCM-134Y5-N10-2HM9QOBX",
+      "quantity": 1,
+      "karat": "10K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 5.32,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A094-02WZ-FCYA-UHVZUZ0X",
+      "po": "WB638319-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "A094-02WZ-FCYA-UHVZUZ0X",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 1.68,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Trillion",
+          "quality": "CVD",
+          "count": 2,
+          "carats": 0.159,
+          "total_carats": 0.318,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A025-01WZ-FCYA-9BL4PE3N",
+      "po": "WB638198-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "A025-01WZ-FCYA-9BL4PE3N",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 7.63,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A092-02YWM-FCYA-AMRJPB5L",
+      "po": "WB638947-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "A092-02YWM-FCYA-AMRJPB5L",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold/Yellow Gold",
+      "gold_weight_g": 3.3,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Pear",
+          "quality": "CVD",
+          "count": 2,
+          "carats": 0.1925,
+          "total_carats": 0.385,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B019-02YME-100A-ANB593HO",
+      "po": "WB638768",
+      "po_sent_date": "2025-11-06",
+      "sku": "B019-02YME-100A-ANB593HO",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 5.37,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A097-01YM-FCYA-5O3R29GL",
+      "po": "WB638752",
+      "po_sent_date": "2025-11-06",
+      "sku": "A097-01YM-FCYA-5O3R29GL",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.34,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 36,
+          "carats": 0.002917,
+          "total_carats": 0.105,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Baguette",
+          "quality": "DIA",
+          "count": 10,
+          "carats": 0.0517,
+          "total_carats": 0.517,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B499-01YM-FCYA-32V5OV4K",
+      "po": "WB638943-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B499-01YM-FCYA-32V5OV4K",
+      "quantity": 1,
+      "karat": "10K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 5.39,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A091-02YM-FCYA-TVTUNTX3",
+      "po": "WB639020",
+      "po_sent_date": "2025-11-06",
+      "sku": "A091-02YM-FCYA-TVTUNTX3",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.62,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Marquise",
+          "quality": "DIA",
+          "count": 4,
+          "carats": 0.072,
+          "total_carats": 0.288,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 6,
+          "carats": 0.032167,
+          "total_carats": 0.193,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 28,
+          "carats": 0.002571,
+          "total_carats": 0.072,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "LU015-01WM22-A-21L1KQ3H",
+      "po": "WB639148",
+      "po_sent_date": "2025-11-06",
+      "sku": "LU015-01WM22-A-21L1KQ3H",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 3.55,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A006-02YM-FCYA-8S6ESKIO",
+      "po": "WB639250",
+      "po_sent_date": "2025-11-06",
+      "sku": "A006-02YM-FCYA-8S6ESKIO",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 4.31,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 19,
+          "carats": 0.003895,
+          "total_carats": 0.074,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B477-01RS-FCYA-HSZR8TNB",
+      "po": "WB638125",
+      "po_sent_date": "2025-11-06",
+      "sku": "B477-01RS-FCYA-HSZR8TNB",
+      "quantity": 1,
+      "karat": "18K",
+      "color": "Rose Gold",
+      "gold_weight_g": 2.96,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Marquise",
+          "quality": "CVD",
+          "count": 4,
+          "carats": 0.06875,
+          "total_carats": 0.275,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 6,
+          "carats": 0.035833,
+          "total_carats": 0.215,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 14,
+          "carats": 0.003571,
+          "total_carats": 0.05,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "LU001-04YM18-A-TR2YP54M",
+      "po": "WB639399",
+      "po_sent_date": "2025-11-06",
+      "sku": "LU001-04YM18-A-TR2YP54M",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.29,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A095-01WM-FCYA-NYGKPLLM",
+      "po": "WB639550-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "A095-01WM-FCYA-NYGKPLLM",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.76,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 2,
+          "carats": 0.025,
+          "total_carats": 0.05,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 2,
+          "carats": 0.0695,
+          "total_carats": 0.139,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 32,
+          "carats": 0.002781,
+          "total_carats": 0.089,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A057-01YWM-FCYA-TKZT2ZOK",
+      "po": "WB639564",
+      "po_sent_date": "2025-11-06",
+      "sku": "A057-01YWM-FCYA-TKZT2ZOK",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold/Yellow Gold",
+      "gold_weight_g": 3.05,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 34,
+          "carats": 0.0025,
+          "total_carats": 0.085,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B252-01YM-100A-IHC87O01",
+      "po": "WB639717-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B252-01YM-100A-IHC87O01",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.92,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 10,
+          "carats": 0.0142,
+          "total_carats": 0.142,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A057-02YM-FCYA-R2IXIUGW",
+      "po": "WB639483",
+      "po_sent_date": "2025-11-06",
+      "sku": "A057-02YM-FCYA-R2IXIUGW",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.95,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 26,
+          "carats": 0.0025,
+          "total_carats": 0.065,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B006-03YM-100A-988FDVDY",
+      "po": "WB639463-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B006-03YM-100A-988FDVDY",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 4.21,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B368-01YM-100A-GGP75UOZ",
+      "po": "WB639348-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B368-01YM-100A-GGP75UOZ",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.68,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 2,
+          "carats": 0.0425,
+          "total_carats": 0.085,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 4,
+          "carats": 0.0145,
+          "total_carats": 0.058,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 16,
+          "carats": 0.007188,
+          "total_carats": 0.115,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "NCM-017W6-Z10-0NXSF0PY",
+      "po": "WB639451",
+      "po_sent_date": "2025-11-06",
+      "sku": "NCM-017W6-Z10-0NXSF0PY",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 16.01,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A123-01WZ-FCYA-70LQH3JE",
+      "po": "WB639361-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "A123-01WZ-FCYA-70LQH3JE",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 5.7,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 16,
+          "carats": 0.04725,
+          "total_carats": 0.756,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 28,
+          "carats": 0.003071,
+          "total_carats": 0.086,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A123-01WZ-FCYB-TKRQQP2N",
+      "po": "WB639361-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "A123-01WZ-FCYB-TKRQQP2N",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 3.3,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 24,
+          "carats": 0.047375,
+          "total_carats": 1.137,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A063-01YM-FCYA-J20UXPOE",
+      "po": "WB640059",
+      "po_sent_date": "2025-11-06",
+      "sku": "A063-01YM-FCYA-J20UXPOE",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.99,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B371-08WZ-FCYA-6MZWH00A",
+      "po": "WB639634-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B371-08WZ-FCYA-6MZWH00A",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 5.08,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B095-03YM-FCYB-DGBN2O6F",
+      "po": "WB639134-2",
+      "po_sent_date": "2025-11-06",
+      "sku": "B095-03YM-FCYB-DGBN2O6F",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.24,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B353-01WM-100B-8QJLY9H7",
+      "po": "WB639758-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B353-01WM-100B-8QJLY9H7",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 2.32,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A081-01YS-FCYA-05PZ9X92",
+      "po": "WB639586",
+      "po_sent_date": "2025-11-06",
+      "sku": "A081-01YS-FCYA-05PZ9X92",
+      "quantity": 1,
+      "karat": "18K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 4.7,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B095-03YM-FCYA-VK9I5OI2",
+      "po": "WB639657-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B095-03YM-FCYA-VK9I5OI2",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.42,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A057-02YM-FCYA-O3Q0IZZT",
+      "po": "WB639763",
+      "po_sent_date": "2025-11-06",
+      "sku": "A057-02YM-FCYA-O3Q0IZZT",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 2.45,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 20,
+          "carats": 0.0025,
+          "total_carats": 0.05,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A031-01WM-FCYA-6ID3L4DN",
+      "po": "WB639818",
+      "po_sent_date": "2025-11-06",
+      "sku": "A031-01WM-FCYA-6ID3L4DN",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold",
+      "gold_weight_g": 3.04,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A058-02YWM-FCYA-YPTAOUG4",
+      "po": "WB639726",
+      "po_sent_date": "2025-11-06",
+      "sku": "A058-02YWM-FCYA-YPTAOUG4",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "White Gold/Yellow Gold",
+      "gold_weight_g": 3.39,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "A046-01YS-FCYA-POOR9VVZ",
+      "po": "WB639916",
+      "po_sent_date": "2025-11-06",
+      "sku": "A046-01YS-FCYA-POOR9VVZ",
+      "quantity": 1,
+      "karat": "18K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 4.48,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 16,
+          "carats": 0.00625,
+          "total_carats": 0.1,
+          "price_per_carat_usd": 0
+        },
+        {
+          "shape": "Round",
+          "quality": "CVD",
+          "count": 28,
+          "carats": 0.004821,
+          "total_carats": 0.135,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "B353-01YWMZ-050A-VCK0UKYZ",
+      "po": "WB639888-RUSH",
+      "po_sent_date": "2025-11-06",
+      "sku": "B353-01YWMZ-050A-VCK0UKYZ",
+      "quantity": 1,
+      "karat": "PT950",
+      "color": "Platinum",
+      "gold_weight_g": 1.92,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "NCM-003Y65-N10-JDWQWKT2",
+      "po": "WB640127",
+      "po_sent_date": "2025-11-06",
+      "sku": "NCM-003Y65-N10-JDWQWKT2",
+      "quantity": 1,
+      "karat": "10K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 8.01,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "NCM-022W55-N10-6R4A84YC",
+      "po": "WB640134",
+      "po_sent_date": "2025-11-06",
+      "sku": "NCM-022W55-N10-6R4A84YC",
+      "quantity": 1,
+      "karat": "10K",
+      "color": "White Gold",
+      "gold_weight_g": 6.51,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "STB5-1YM-O4U3LQOI",
+      "po": "WB640150",
+      "po_sent_date": "2025-11-06",
+      "sku": "STB5-1YM-O4U3LQOI",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 1.52,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "LU055-01YM21-A-9YNT7YTA",
+      "po": "WB639459-2",
+      "po_sent_date": "2025-11-06",
+      "sku": "LU055-01YM21-A-9YNT7YTA",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 3.5,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
+    },
+    {
+      "uid": "BLU042-01YM3-A-GJB204P4",
+      "po": "WB639584",
+      "po_sent_date": "2025-11-06",
+      "sku": "BLU042-01YM3-A-GJB204P4",
+      "quantity": 1,
+      "karat": "14K",
+      "color": "Yellow Gold",
+      "gold_weight_g": 6.56,
+      "gold_price_usd_per_oz": "",
+      "diamonds": [
+        {
+          "shape": "Round",
+          "quality": "DIA",
+          "count": 28,
+          "carats": 0.005,
+          "total_carats": 0.14,
+          "price_per_carat_usd": 0
+        }
+      ],
+      "labour_cost_usd": "",
+      "final_cost_usd": "",
+      "source_file": "Accent 11-06 Shipment Gold 1106(0301).csv"
     }
   ]
 }

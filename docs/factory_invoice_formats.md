@@ -12,6 +12,26 @@ workflow that converts a factory Excel into the dashboard upload JSON
 
 ---
 
+## Production CSV formats currently supported
+
+The web app now directly detects and parses the four manufacturer CSV formats
+below. Each parser extracts the strongest available match key plus the fields
+that are actually present in that manufacturer's file. Missing fields are not
+compared, so a format that does not include labour or per-carat pricing will not
+create false mismatch flags for those fields.
+
+| Manufacturer file | Match key used first | Other keys tried | Main extracted fields | Stone comparison |
+| --- | --- | --- | --- | --- |
+| Star Forever shipment invoice | `PO NO.` | `Style NO.` | invoice date, PO/order, style, quantity, metal, metal weight, total labour, final price | aggregate stone count + total carats |
+| Diatrends packing list | `UID NO` | `PO Number`, `SKU NO`, `DesignNo`, `W O NO` | invoice date, UID, PO, SKU, quantity, metal, gross weight, value per piece | grouped by stone shape with count + total carats |
+| Indojewel detailed invoice | `JewelCode` | `Cust Po No`, `Cust Style no`, `Dsg Cd`, `Old Dsg Cd` | invoice date, jewel code, customer PO, style, quantity, metal, net weight, total labour, unit price | grouped by shape + parsed clarity/color, with count, total carats, and PPC |
+| Accent invoice | `CUST style` | order number, `Accent Style` | invoice date, order number, customer style, accent style, quantity, metal, net/gross weight | grouped by stone shape with count + total carats |
+
+The legacy synthetic Factory A/B/C examples remain below as reference fixtures
+for parser development and normalized JSON testing.
+
+---
+
 ## Shared concepts
 
 All factories invoice us **per PO**, with one row per UID / barcode. The

@@ -109,8 +109,8 @@ After upload, every line must satisfy:
    - `price_per_carat_usd`: ±1.00 USD
 4. Any extra or missing diamond entry flags the line.
 
-Anything failing the above lands in the **Flag Notes** column with the
-field-level delta so you can see exactly which value drifted.
+Anything failing the above is highlighted as a red-flag row. Open the row to see
+the field-level delta for each value that drifted.
 
 ---
 
