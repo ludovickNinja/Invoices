@@ -21,3 +21,17 @@ Run the automated smoke checks with:
 ```bash
 node tests/run_validation_checks.js
 ```
+
+## Order source and job bags
+
+Each reference record in `mock_invoice_database.json` carries a `source`
+code (`111`, `123`, `558`, `559`, …). It is never read from the uploaded
+invoice; the dashboard joins it onto a line once the UID resolves against the
+reference DB and shows it in the **Source** column.
+
+Use the **Source** dropdown in the Line Review header to narrow the table to
+one code. The three metric cards and the **Print Job-Bags** button both follow
+the filtered view, so filtering to `558` and printing yields one job bag per
+`558` line only. Job bags open in a new window sized for print, one card per
+line (UID, source, PO, metal, stone breakdown, status), and trigger the browser
+print dialog automatically.

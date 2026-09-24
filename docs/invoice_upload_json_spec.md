@@ -24,6 +24,13 @@ format, conform to the contract below.
 A `Line` represents one physical SKU/UID on the invoice. Each `Line` has the
 fields below.
 
+> **Note on `source`** — the order source code (e.g. `111`, `123`, `558`,
+> `559`) is **not** part of any upload, CSV or JSON. It lives on the Azure
+> reference record and is joined onto the line by the dashboard once the UID
+> resolves. It drives the "Source" column, the source filter, and the header
+> of each printed job bag. Do not include it in the file you emit; if you do,
+> it is ignored.
+
 ---
 
 ## 2. Line fields
