@@ -147,9 +147,13 @@ const fileStatusElement = document.getElementById("fileStatus");
 const totalLinesElement = document.getElementById("totalLines");
 const matchLinesElement = document.getElementById("matchLines");
 const flaggedLinesElement = document.getElementById("flaggedLines");
+const sourceFilterElement = document.getElementById("sourceFilter");
+const filterCaptionElement = document.getElementById("filterCaption");
+const printJobBagsBtn = document.getElementById("printJobBagsBtn");
 
 let dbByUid = new Map();
 let dbLookupIndex = new Map();
+let currentComparisons = [];
 const dbReady = init();
 
 async function init() {
@@ -166,8 +170,9 @@ invoiceFileInput.addEventListener("change", async (event) => {
     updateFileStatus(files, "processing");
     await dbReady;
     const lines = await normalizeCsvUploads(files);
-    const comparisons = lines.map(compareLine);
-    renderComparisons(comparisons);
+    currentComparisons = lines.map(compareLine);
+    populateSourceFilter(currentComparisons);
+    renderComparisons(currentComparisons);
     updateFileStatus(files, "complete");
   } catch (err) {
     updateFileStatus(files, "error");
@@ -190,6 +195,16 @@ resultsBody.addEventListener("keydown", (event) => {
 
   event.preventDefault();
   toggleFlagDetails(row);
+});
+
+sourceFilterElement.addEventListener("change", () => {
+  renderComparisons(currentComparisons);
+});
+
+printJobBagsBtn.addEventListener("click", () => {
+  const visible = getVisibleComparisons(currentComparisons);
+  if (!visible.length) return;
+  openJobBagsPrintWindow(visible);
 });
 
 async function normalizeCsvUploads(files) {
@@ -626,7 +641,12 @@ function compareLine(line) {
     const keys = [line.uid, ...(line.__alternateMatchKeys || [])].map(cleanText).filter(Boolean);
     const triedLabel = keys.length ? ` Tried: ${uniqueValues(keys).join(", ")}` : "";
     const ambiguousLabel = match.ambiguousKeys?.length ? ` Ambiguous keys: ${match.ambiguousKeys.join(", ")}` : "";
-    return { line, status: "flagged", notes: [`No unique reference record found.${triedLabel}${ambiguousLabel}`] };
+    return {
+      line,
+      source: null,
+      status: "flagged",
+      notes: [`No unique reference record found.${triedLabel}${ambiguousLabel}`],
+    };
   }
 
   const notes = [];
@@ -643,6 +663,7 @@ function compareLine(line) {
 
   return {
     line,
+    source: match.record.source == null || match.record.source === "" ? null : String(match.record.source),
     status: notes.length === 0 ? "match" : "flagged",
     notes,
   };
@@ -1223,10 +1244,45 @@ function formatValue(v) {
 }
 
 function renderError(message) {
+  currentComparisons = [];
   totalLinesElement.textContent = "0";
   matchLinesElement.textContent = "0";
   flaggedLinesElement.textContent = "0";
-  resultsBody.innerHTML = `<tr><td colspan="13" class="placeholder">${escapeCell(message)}</td></tr>`;
+  printJobBagsBtn.disabled = true;
+  populateSourceFilter([]);
+  updateFilterCaption(0, 0);
+  resultsBody.innerHTML = `<tr><td colspan="14" class="placeholder">${escapeCell(message)}</td></tr>`;
+}
+
+function populateSourceFilter(comparisons) {
+  const sources = uniqueValues(comparisons.map((c) => c.source)).sort((a, b) =>
+    a.localeCompare(b, undefined, { numeric: true })
+  );
+  const previous = sourceFilterElement.value;
+
+  sourceFilterElement.innerHTML =
+    '<option value="">All sources</option>' +
+    sources.map((s) => `<option value="${escapeCell(s)}">${escapeCell(s)}</option>`).join("");
+
+  sourceFilterElement.value = previous && sources.includes(previous) ? previous : "";
+}
+
+function getVisibleComparisons(comparisons) {
+  const filter = sourceFilterElement.value;
+  if (!filter) return comparisons;
+  return comparisons.filter((c) => c.source === filter);
+}
+
+function updateFilterCaption(visibleCount, totalCount) {
+  if (!filterCaptionElement) return;
+
+  if (!totalCount) {
+    filterCaptionElement.textContent = "";
+    return;
+  }
+
+  filterCaptionElement.textContent =
+    visibleCount === totalCount ? `${totalCount} lines` : `Showing ${visibleCount} of ${totalCount} lines`;
 }
 
 function updateFileStatus(files, state) {
@@ -1244,17 +1300,26 @@ function updateFileStatus(files, state) {
 }
 
 function renderComparisons(comparisons) {
-  totalLinesElement.textContent = String(comparisons.length);
-  const matchCount = comparisons.filter((c) => c.status === "match").length;
+  const visible = getVisibleComparisons(comparisons);
+
+  totalLinesElement.textContent = String(visible.length);
+  const matchCount = visible.filter((c) => c.status === "match").length;
   matchLinesElement.textContent = String(matchCount);
-  flaggedLinesElement.textContent = String(comparisons.length - matchCount);
+  flaggedLinesElement.textContent = String(visible.length - matchCount);
+  updateFilterCaption(visible.length, comparisons.length);
+  printJobBagsBtn.disabled = visible.length === 0;
 
   if (comparisons.length === 0) {
-    resultsBody.innerHTML = `<tr><td colspan="13" class="placeholder">No lines found in file.</td></tr>`;
+    resultsBody.innerHTML = `<tr><td colspan="14" class="placeholder">No lines found in file.</td></tr>`;
     return;
   }
 
-  resultsBody.innerHTML = comparisons
+  if (visible.length === 0) {
+    resultsBody.innerHTML = `<tr><td colspan="14" class="placeholder">No lines match this source.</td></tr>`;
+    return;
+  }
+
+  resultsBody.innerHTML = visible
     .map((result, index) => {
       const line = result.line;
       const notes = Array.isArray(result.notes) ? result.notes : [];
@@ -1271,6 +1336,7 @@ function renderComparisons(comparisons) {
       const summaryRow = `
         <tr class="${rowClass}" ${rowAttributes}>
           <td>${escapeCell(line.uid)}</td>
+          <td>${formatSourceCell(result.source)}</td>
           <td>${escapeCell(line.po)}</td>
           <td>${escapeCell(line.po_sent_date)}</td>
           <td>${escapeCell(line.sku)}</td>
@@ -1291,7 +1357,7 @@ function renderComparisons(comparisons) {
       return `
         ${summaryRow}
         <tr id="${detailId}" class="flag-detail-row" hidden>
-          <td colspan="13">
+          <td colspan="14">
             <div class="flag-detail-panel">
               <div class="flag-detail-header">
                 <strong>Conflict Breakdown</strong>
@@ -1421,6 +1487,104 @@ function formatDiamonds(diamonds) {
       return escapeCell(`${d.count ?? "?"}x ${d.shape ?? "?"} ${d.quality ?? ""}${perStone}${total}${price}`);
     })
     .join("<br/>");
+}
+
+function formatSourceCell(source) {
+  if (source == null) return '<span class="source-missing">—</span>';
+  return `<span class="source-pill">${escapeCell(source)}</span>`;
+}
+
+function openJobBagsPrintWindow(visible) {
+  const printWindow = window.open("", "_blank", "width=900,height=1200");
+  if (!printWindow) return;
+
+  const filter = sourceFilterElement.value;
+  const heading = filter ? `Source ${escapeCell(filter)}` : "All sources";
+  const count = visible.length;
+  const bags = visible.map(renderJobBag).join("");
+
+  printWindow.document.write(`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Job Bags — ${heading}</title>
+    <style>
+      body { margin: 0; padding: 24px; color: #1f2023; font-family: Inter, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+      h1 { margin: 0 0 14px; font-size: 15px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: #46474a; }
+      .bag { margin: 0 0 16px; padding: 16px 18px; border: 2px solid #46474a; border-radius: 8px; page-break-inside: avoid; break-inside: avoid; }
+      .bag h2 { margin: 0 0 4px; font-size: 20px; font-weight: 800; }
+      .bag .sub { margin: 0 0 12px; color: #737373; font-size: 12px; font-weight: 600; }
+      .bag dl { display: grid; grid-template-columns: 130px 1fr; row-gap: 5px; column-gap: 12px; margin: 0; font-size: 13px; }
+      .bag dt { color: #737373; }
+      .bag dd { margin: 0; font-weight: 700; }
+      .bag table { width: 100%; margin-top: 12px; border-collapse: collapse; font-size: 12px; }
+      .bag th, .bag td { padding: 5px 7px; border: 1px solid #d3d2cc; text-align: left; }
+      .bag th { background: #f4f3ef; font-size: 11px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: #475467; }
+      .footer { display: flex; justify-content: space-between; margin-top: 12px; color: #737373; font-size: 11px; }
+      .footer .ok { color: #2f6d55; font-weight: 800; }
+      .footer .bad { color: #a8323a; font-weight: 800; }
+      .no-print { position: fixed; top: 12px; right: 12px; }
+      .no-print button { padding: 8px 14px; border: 1px solid #46474a; border-radius: 6px; background: #fff; font-weight: 700; cursor: pointer; }
+      @media print { .no-print { display: none; } body { padding: 0; } }
+    </style>
+  </head>
+  <body>
+    <div class="no-print"><button type="button" onclick="window.print()">Print</button></div>
+    <h1>Job Bags — ${heading} · ${count} item${count === 1 ? "" : "s"}</h1>
+    ${bags}
+    <script>window.addEventListener("load", () => setTimeout(() => window.print(), 300));<\/script>
+  </body>
+</html>`);
+  printWindow.document.close();
+}
+
+function renderJobBag(result) {
+  const line = result.line;
+  const diamonds = Array.isArray(line.diamonds) ? line.diamonds : [];
+  const stoneRows = diamonds
+    .map(
+      (d) => `
+        <tr>
+          <td>${escapeCell(d.shape ?? "")}</td>
+          <td>${escapeCell(d.quality ?? "")}</td>
+          <td>${escapeCell(d.count ?? "")}</td>
+          <td>${escapeCell(d.carats ?? "")}</td>
+          <td>${escapeCell(d.total_carats ?? "")}</td>
+          <td>${escapeCell(d.price_per_carat_usd ?? "")}</td>
+        </tr>`
+    )
+    .join("");
+  const stoneTable = stoneRows
+    ? `<table>
+        <thead>
+          <tr><th>Shape</th><th>Quality</th><th>Count</th><th>Ct / stone</th><th>Total ct</th><th>$ / ct</th></tr>
+        </thead>
+        <tbody>${stoneRows}</tbody>
+      </table>`
+    : '<p class="sub" style="margin-top:12px">No stones on this piece.</p>';
+  const statusClass = result.status === "match" ? "ok" : "bad";
+  const statusText = result.status === "match" ? "Matched" : `Red Flag · ${formatConflictCount(result.notes.length)}`;
+
+  return `
+    <section class="bag">
+      <h2>${escapeCell(line.uid)}</h2>
+      <p class="sub">SKU ${escapeCell(line.sku)} · ${escapeCell(line.karat)} ${escapeCell(line.color)} · Qty ${escapeCell(line.quantity)}</p>
+      <dl>
+        <dt>Order source</dt><dd>${result.source == null ? "—" : escapeCell(result.source)}</dd>
+        <dt>PO#</dt><dd>${escapeCell(line.po)}</dd>
+        <dt>Date</dt><dd>${escapeCell(line.po_sent_date)}</dd>
+        <dt>Gold weight</dt><dd>${escapeCell(line.gold_weight_g)} g</dd>
+        <dt>Gold spot</dt><dd>${line.gold_price_usd_per_oz === "" ? "—" : `$${escapeCell(line.gold_price_usd_per_oz)} / oz`}</dd>
+        <dt>Labour</dt><dd>${line.labour_cost_usd === "" ? "—" : `$${escapeCell(line.labour_cost_usd)}`}</dd>
+        <dt>Final</dt><dd>${line.final_cost_usd === "" ? "—" : `$${escapeCell(line.final_cost_usd)}`}</dd>
+      </dl>
+      ${stoneTable}
+      <div class="footer">
+        <span class="${statusClass}">${statusText}</span>
+        <span>Printed ${new Date().toISOString().slice(0, 10)}</span>
+      </div>
+    </section>
+  `;
 }
 
 function escapeCell(value) {

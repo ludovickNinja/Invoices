@@ -41,9 +41,18 @@
       <section class="review-panel">
         <div class="panel-header">
           <h2>Line Review</h2>
-          <div class="status-legend" aria-label="Status legend">
-            <span><i class="legend-dot legend-ok"></i>Matched</span>
-            <span><i class="legend-dot legend-bad"></i>Red Flag</span>
+          <div class="panel-tools">
+            <div class="source-filter">
+              <label for="sourceFilter">Source</label>
+              <select id="sourceFilter" aria-label="Filter lines by order source">
+                <option value="">All sources</option>
+              </select>
+              <span id="filterCaption" class="filter-caption" aria-live="polite"></span>
+            </div>
+            <div class="status-legend" aria-label="Status legend">
+              <span><i class="legend-dot legend-ok"></i>Matched</span>
+              <span><i class="legend-dot legend-bad"></i>Red Flag</span>
+            </div>
           </div>
         </div>
 
@@ -52,6 +61,7 @@
             <thead>
               <tr>
                 <th>UID</th>
+                <th>Source</th>
                 <th>PO#</th>
                 <th>Date</th>
                 <th>SKU</th>
@@ -68,10 +78,15 @@
             </thead>
             <tbody id="resultsBody">
               <tr>
-                <td colspan="13" class="placeholder">No invoice uploaded</td>
+                <td colspan="14" class="placeholder">No invoice uploaded</td>
               </tr>
             </tbody>
           </table>
+        </div>
+
+        <div class="panel-footer">
+          <button id="printJobBagsBtn" type="button" class="primary-btn" disabled>Print Job-Bags</button>
+          <span class="panel-footer-hint">Generates one job bag per line currently shown above.</span>
         </div>
       </section>
     </main>
